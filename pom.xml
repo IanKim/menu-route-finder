@@ -8,6 +8,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <packaging>jar</packaging>
     <version>1.0.0</version>
     <properties>
+        <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
         <main.class>com.kakaobank.menu.route.Top3Finder</main.class>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
